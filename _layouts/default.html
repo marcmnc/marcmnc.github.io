@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang='es'>
+    <head>
+      <title>{{ page.title }}</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="/css/reset.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/my_css.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    </head>
+    <body>
+      <div>
+        <h1>
+          <img src="../static_files/flecha_dreta.png" alt='fld'/>Marc Serra Hidalgo<img src="../static_files/flecha_esquerra.png" alt='fle'/>
+        </h1>
+      </div>
+      <div id="navbar"> 
+        <ul> 
+        <li><a href="https://isx41745190.github.io.">Inicio</a></li> 
+        <li><a href="https://isx41745190.github.io./info">Informacion basica</a></li> 
+        <li><a href="https://isx41745190.github.io./curriculum">Mi curriculum</a></li> 
+        <li><a href="https://isx41745190.github.io./trabajos">Mis trabajos</a></li>
+        <li><a href="https://isx41745190.github.io./fotos">Mis fotos</a></li>
+        <li><a href="https://isx41745190.github.io./videos">Mis videos</a></li>
+        <li><a href="https://isx41745190.github.io./contacto">Contacta conmigo</a></li> 
+        </ul> 
+      </div> 
+      <div>
+        {{ content }}
+      </div>
+      <footer>
+        <hr>
+        <p>Marc Serra Hidalgo | Made with love in Barcelona</p>
+        <p>All content copyright &#9400; </p>
+        <!-- Los targets para que abra ventana nueva de navegador -->
+        <a href="https://www.instagram.com/marcmnc7" target="_blank">
+          <img alt="Instagram" src="../static_files/logo_insta.png">
+        </a>
+        <a href="https://www.linkedin.com/in/marcserrahidalgo/" target="_blank">
+          <img alt="Linkedin" src="../static_files/logo_lin.png">
+        </a>
+        <a href="https://github.com/isx41745190" target="_blank">
+          <img alt="GitHub" src="../static_files/logo_gith.png">
+        </a>
+        <a href="https://gitlab.com/isx41745190" target="_blank">
+          <img alt="GitLab" src="../static_files/logo_glab.png">
+        </a>
+      </footer>
+    </body>
+  </html>
